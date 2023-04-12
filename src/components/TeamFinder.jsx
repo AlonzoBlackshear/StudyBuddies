@@ -37,7 +37,7 @@ const TeamFinder = (props) => {
 
           <span class="teamSize"> 2/4 teammates</span>
 
-          <img class="profilePic" src= {default_pic} alt="user avatar" onClick={() => props.onPageSwitch('fakeprofilepage')}/>
+          <img class="profilePic" src= {default_pic} alt="user avatar" onClick={() => props.onPageSwitch('fakeprofilepage1')}/>
 
           <div class="userDetails">
             <span class="userName"><strong>Steven Rodriguez</strong>  (srodriguez@umich.edu)</span>
@@ -55,7 +55,7 @@ const TeamFinder = (props) => {
 
           <span class="teamSize"> 3/4 teammates</span>
 
-          <img class="profilePic" src= {default_pic} alt="user avatar" onClick={() => props.onPageSwitch('fakeprofilepage')}/>
+          <img class="profilePic" src= {default_pic} alt="user avatar" onClick={() => props.onPageSwitch('fakeprofilepage2')}/>
 
           <div class="userDetails">
             <span class="userName"><strong>Sarah Mcsharlen</strong>  (smcsharlen@umich.edu)</span>

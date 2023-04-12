@@ -25,9 +25,9 @@ const ProfilePage = (props) => {
             name: user.displayName,
             avatar: user.photoURL,
             uid: user.uid,
-            bio: "Test User",
-            year: "Senior",
-            skills: ["Testing"]
+            bio: "Enter New Bio",
+            year: "Enter School Year",
+            skills: ["Enter Skills"]
             });
             userIn = await getDoc(userRef);
         }
@@ -93,16 +93,17 @@ const ProfilePage = (props) => {
                 <div className="profileFields">
                     <span className="profileInput" id="yearInput">
                         <label>Year:</label>
-                       
+                        <span className="profileText" id="yearText">Enter School Year</span>
                     </span>
                     <span className="profileInput" id="bioInput">
                         <label>Bio:</label>
-                        <h5>HIIII</h5>
+                        <span className="profileText" id="bioText">Enter New Bio</span>
                     </span>
                     <span className="profileInput" id="skillsInput">
                         <label>Skills:</label>
-                        
+                        <span className="profileText" id="skillsList">Enter Skills</span>
                     </span>
+                    <button onClick={() => setEdit(true)}> Edit Profile</button>
                 </div>
             </form>
         )}

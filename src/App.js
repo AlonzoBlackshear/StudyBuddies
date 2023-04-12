@@ -10,8 +10,9 @@ import Homepage from "./components/Homepage";
 import TopNav from "./components/TopNav";
 import TeamFinder from "./components/TeamFinder";
 import ProfilePage from "./components/ProfilePage";
-import FakeProfilePage from "./components/FakeProfilePage";
+import FakeProfilePage1 from "./components/FakeProfilePage1";
 import WelcomeHeader from "./components/WelcomeHeader";
+import FakeProfilePage2 from "./components/FakeProfilePage2";
 
 function App() {
   const [user] = useAuthState(auth);
@@ -60,13 +61,20 @@ function App() {
       <TeamFinder onPageSwitch={togglePage}/>
       </div>
       )
-  else if (currentPage === 'fakeprofilepage')
+  else if (currentPage === 'fakeprofilepage1')
       return (
         <div className='App'> 
         <HeaderBar onPageSwitch={togglePage}/>
-        <FakeProfilePage onPageSwitch={togglePage}/>
+        <FakeProfilePage1 onPageSwitch={togglePage}/>
         </div>
       )
+    else if (currentPage === 'fakeprofilepage2')
+      return (
+        <div className='App'> 
+        <HeaderBar onPageSwitch={togglePage}/>
+        <FakeProfilePage2 onPageSwitch={togglePage}/>
+        </div>
+      )  
   return (
     <div className='App'> 
       <HeaderBar onPageSwitch={togglePage}/>

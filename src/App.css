@@ -90,11 +90,11 @@ input {
   .chat-bubble {
     border-radius: 20px 20px 20px 0;
     padding: 15px;
-    background-color: #7cc5d9;
-    color: #1c2c4c;
+    background-color: #6e0156;
+    color: white;
     width: max-content;
     max-width: calc(100% - 50px);
-    box-shadow: -2px 2px 1px 1px #4c768d;
+    box-shadow: -2px 2px 1px 1px black;
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
@@ -104,6 +104,7 @@ input {
     margin-left: auto;
     border-radius: 20px 20px 0 20px;
     background-color: #fff;
+    color: black;
     box-shadow: -2px 2px 1px 1px #6e0156;
   }
   
@@ -118,7 +119,7 @@ input {
   font-weight: bold;
   margin-bottom: 5px;
   font-size: 0.9rem;
-  color: #1c2c4c;
+  color: #888888;
   }
   
   .user-message {
@@ -190,7 +191,7 @@ input {
 
 #E493 {
   background-color: #6e0156;
-
+  position: fixed;
 }
 
 .homePage {
@@ -309,6 +310,8 @@ input {
   color: #0E1C36;
   background-color: #CB429F;
   text-align: center;
+  width: 100%;
+  position: fixed;
 }
 
 .teamFinder h2 {
@@ -332,6 +335,7 @@ input {
   border-bottom: 4px solid #826C7F;
   display: flex;
   justify-content: flex-start;
+  
 }
 
 .openSearch .userName {
