@@ -288,3 +288,45 @@ input {
   font-size: 20px;
   border-color: #05a002;
 }
+
+/* Team Finder Page */
+.teamFinder {
+  margin-top: 110px;
+}
+
+.teamFinder h1 {
+  color: #0E1C36;
+  background-color: #CB429F;
+  text-align: center;
+}
+
+.teamFinder h2 {
+  color: #0E1C36;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.teamFinder #metaBackground {
+  background-color: #826C7F;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.teamFinder #metaData {
+  color: #0E1C36;
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.teamFinder .openSearch {
+  border-bottom: 4px solid #826C7F;
+}
+
+.openSearch .userName {
+  color: #0E1C36;
+  font-size: 25px;
+}
+
+.openSearch .about {
+  color: #0E1C36;
+  font-size: 18px;
+}

@@ -21,7 +21,25 @@ const TeamFinder = (props) => {
 
   return (
     <main className="teamFinder">
-        
+        <h1>EECS 493 TEAM FINDER</h1>
+        <h2>2 Open Searches:</h2>
+        <div id="metaBackground">
+
+          <span id="metaData"><strong>Team Size</strong>
+          </span> 
+
+          <span id="metaData"><strong>About</strong>
+          </span>
+        </div>
+
+        <div class="openSearch">
+          <span class="userName"><strong>David Adeyele</strong>  (dadeleye@umich.edu)</span>
+
+          <p class="about">Hi, my name is David, and I am currently a senior. I am looking for a p3 group. 
+          I have a pretty flexible schedule this semester, so I can put in a decent amount of effort for 
+          this class. Let me know if interested!
+          </p>
+        </div>
     </main>
   );
 };
