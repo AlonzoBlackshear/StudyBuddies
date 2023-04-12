@@ -319,6 +319,8 @@ input {
 
 .teamFinder .openSearch {
   border-bottom: 4px solid #826C7F;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .openSearch .userName {
@@ -329,4 +331,32 @@ input {
 .openSearch .about {
   color: #0E1C36;
   font-size: 18px;
+}
+
+.openSearch .teamSize {
+  color: forestgreen;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  margin-right: 70px;
+  text-align: center;
+}
+
+.openSearch .profilePic {
+  object-fit: contain;
+  width: 50px;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; /* Add some margin to separate the user details from the profile picture */
+}
+
+.replyBox {
+  margin-top: 10px; /* Add some margin to separate the reply box from the user details */
+  color: #0E1C36;
+}
+
+#my-textbox {
+  padding: 5px;
 }
