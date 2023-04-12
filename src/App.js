@@ -10,6 +10,7 @@ import Homepage from "./components/Homepage";
 import TopNav from "./components/TopNav";
 import TeamFinder from "./components/TeamFinder";
 import ProfilePage from "./components/ProfilePage";
+import FakeProfilePage from "./components/FakeProfilePage";
 import WelcomeHeader from "./components/WelcomeHeader";
 
 function App() {
@@ -58,6 +59,13 @@ function App() {
       </TopNav>
       <TeamFinder onPageSwitch={togglePage}/>
       </div>
+      )
+  else if (currentPage === 'fakeprofilepage')
+      return (
+        <div className='App'> 
+        <HeaderBar onPageSwitch={togglePage}/>
+        <FakeProfilePage onPageSwitch={togglePage}/>
+        </div>
       )
   return (
     <div className='App'> 

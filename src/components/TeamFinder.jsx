@@ -37,7 +37,7 @@ const TeamFinder = (props) => {
 
           <span class="teamSize"> 2/4 teammates</span>
 
-          <img class="profilePic" src= {default_pic} alt="user avatar"/>
+          <img class="profilePic" src= {default_pic} alt="user avatar" onClick={() => props.onPageSwitch('fakeprofilepage')}/>
 
           <div class="userDetails">
             <span class="userName"><strong>Steven Rodriguez</strong>  (srodriguez@umich.edu)</span>
@@ -55,11 +55,11 @@ const TeamFinder = (props) => {
 
           <span class="teamSize"> 3/4 teammates</span>
 
-          <img class="profilePic" src= {default_pic} alt="user avatar"/>
+          <img class="profilePic" src= {default_pic} alt="user avatar" onClick={() => props.onPageSwitch('fakeprofilepage')}/>
 
           <div class="userDetails">
             <span class="userName"><strong>Sarah Mcsharlen</strong>  (smcsharlen@umich.edu)</span>
-            <p class="about">Hi, I am currently a Junior. We need one more person to join our group for this upcomming project so we can have an easier time splitting work. we're all Juniors and live of North campus to that's where we generally meet. Let me know if interested!</p>
+            <p class="about">Hi, I am currently a junior. We need one more person to join our group for this upcomming project so we can have an easier time splitting work. we're all Juniors and live of North campus to that's where we generally meet. Let me know if interested!</p>
           </div>
           <div class="replyBox">
             <label for="my-textbox">Reply Here:</label>
